@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/mathe/.nvm/versions/node/v14.15.4/bin/node',
+1 verbose cli   '/home/mathe/.nvm/versions/node/v14.15.4/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'lint',
+1 verbose cli   '--cache',
+1 verbose cli   '--fix',
+1 verbose cli   '/home/mathe/dev/boilerplate-nextjs/src/pages/index.tsx'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
+5 info lifecycle boilerplate-nextjs@0.1.0~prelint: boilerplate-nextjs@0.1.0
+6 info lifecycle boilerplate-nextjs@0.1.0~lint: boilerplate-nextjs@0.1.0
+7 verbose lifecycle boilerplate-nextjs@0.1.0~lint: unsafe-perm in lifecycle true
+8 verbose lifecycle boilerplate-nextjs@0.1.0~lint: PATH: /home/mathe/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/mathe/dev/boilerplate-nextjs/node_modules/.bin:/home/mathe/dev/boilerplate-nextjs/node_modules/.bin:/home/mathe/dev/node_modules/.bin:/home/mathe/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/mathe/.nvm/versions/node/v14.15.4/bin:/home/mathe/dev/boilerplate-nextjs/node_modules/.bin:/usr/lib/git-core:/home/mathe/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/home/mathe/.nvm/versions/node/v14.15.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/mathe/AppData/Local/Microsoft/WindowsApps
+9 verbose lifecycle boilerplate-nextjs@0.1.0~lint: CWD: /home/mathe/dev/boilerplate-nextjs
+10 silly lifecycle boilerplate-nextjs@0.1.0~lint: Args: [
+10 silly lifecycle   '-c',
+10 silly lifecycle   'eslint src --max-warnings=0 "/home/mathe/dev/boilerplate-nextjs/src/pages/index.tsx"'
+10 silly lifecycle ]
+11 silly lifecycle boilerplate-nextjs@0.1.0~lint: Returned: code: 1  signal: null
+12 info lifecycle boilerplate-nextjs@0.1.0~lint: Failed to exec lint script
+13 verbose stack Error: boilerplate-nextjs@0.1.0 lint: `eslint src --max-warnings=0 "/home/mathe/dev/boilerplate-nextjs/src/pages/index.tsx"`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/home/mathe/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/home/mathe/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid boilerplate-nextjs@0.1.0
+15 verbose cwd /home/mathe/dev/boilerplate-nextjs
+16 verbose Linux 4.19.84-microsoft-standard
+17 verbose argv "/home/mathe/.nvm/versions/node/v14.15.4/bin/node" "/home/mathe/.nvm/versions/node/v14.15.4/bin/npm" "run" "lint" "--cache" "--fix" "/home/mathe/dev/boilerplate-nextjs/src/pages/index.tsx"
+18 verbose node v14.15.4
+19 verbose npm  v6.14.10
+20 error code ELIFECYCLE
+21 error errno 1
+22 error boilerplate-nextjs@0.1.0 lint: `eslint src --max-warnings=0 "/home/mathe/dev/boilerplate-nextjs/src/pages/index.tsx"`
+22 error Exit status 1
+23 error Failed at the boilerplate-nextjs@0.1.0 lint script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
